@@ -29,7 +29,7 @@ To ensure a smooth and collaborative experience for all participants, please fol
 
 If you have any questions or need further clarification on the challenge requirements or the contribution process, feel free to reach out to us by [creating an issue](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues) in this repository.
 
-We appreciate your valuable contributions and look forward to seeing your creative solutions!
+We appreciate your valuable contributions and look forward to seeing your solutions!
 
 Happy coding!
 
