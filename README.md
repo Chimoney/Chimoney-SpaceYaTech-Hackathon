@@ -41,7 +41,7 @@ We have exciting prizes lined up for the most outstanding solutions, including c
 
 ## Questions or Feedback
 
-If you have any questions or need further assistance during the challenge, don't hesitate to [create an issue](link-to-issues) in this repository. We are here to support you throughout your journey!
+If you have any questions or need further assistance during the challenge, don't hesitate to [create an issue](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues) in this repository. We are here to support you throughout your journey!
 
 Let's build a borderless financial future together with the Chimoney Developer API Challenge. Happy coding! 😃
 
