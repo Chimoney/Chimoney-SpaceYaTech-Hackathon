@@ -10,13 +10,13 @@ The Chimoney Developer API Challenge is an exciting opportunity for developers t
 As part of this challenge, participants are invited to address specific pain points in the current financial landscape and leverage the Chimoney Developer API to develop unique solutions that streamline global payments, enhance user experiences, and promote financial inclusion.
 
 ### Specific Pain Points You Can Build Solutions On:
-1. Payment Security: Enhance the security of financial transactions and protect sensitive data during payment processing.
+ - Payment Security: Enhance the security of financial transactions and protect sensitive data during payment processing.
    
-3. Payment Delays: Create a tracking system for users to track their pending transactions
+ - Payment Delays: Create a tracking system for users to track their pending transactions
    
-4. Payment Integration for E-commerce Platforms: Provide seamless integration with e-commerce platforms, enabling businesses to streamline payment processes for their online customers.
+ - Payment Integration for E-commerce Platforms: Provide seamless integration with e-commerce platforms, enabling businesses to streamline payment processes for their online customers.
    
-5. Payout Solutions for Gig Economy Workers: Design applications that offer efficient and flexible payout solutions for gig economy workers and freelancers.
+- Payout Solutions for Gig Economy Workers: Design applications that offer efficient and flexible payout solutions for gig economy workers and freelancers.
 
 ## Getting Started
 
