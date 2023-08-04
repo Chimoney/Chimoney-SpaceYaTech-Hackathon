@@ -20,7 +20,7 @@ As part of this challenge, participants are invited to address specific pain poi
 
 ## Getting Started
 
-- To Contribute, checkout (CONTRIBUTE.md)[https://github.com/Chimoney/Chimoney-API-DevChallenge/blob/main/CONTRIBUTING.md]
+- To Contribute, checkout [CONTRIBUTE.md](https://github.com/Chimoney/Chimoney-API-DevChallenge/blob/main/CONTRIBUTING.md)
 
 ## Prizes
 
