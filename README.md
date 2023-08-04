@@ -11,13 +11,16 @@ As part of this challenge, participants are invited to address specific pain poi
 
 ### Specific Pain Points You Can Build Solutions On:
 1. Payment Security: Enhance the security of financial transactions and protect sensitive data during payment processing.
-2. Payment Delays: Create a tracking system for users to track their pending transactions
-3. Payment Integration for E-commerce Platforms: Provide seamless integration with e-commerce platforms, enabling businesses to streamline payment processes for their online customers.
-4. Payout Solutions for Gig Economy Workers: Design applications that offer efficient and flexible payout solutions for gig economy workers and freelancers.
+   
+3. Payment Delays: Create a tracking system for users to track their pending transactions
+   
+5. Payment Integration for E-commerce Platforms: Provide seamless integration with e-commerce platforms, enabling businesses to streamline payment processes for their online customers.
+   
+7. Payout Solutions for Gig Economy Workers: Design applications that offer efficient and flexible payout solutions for gig economy workers and freelancers.
 
 ## Getting Started
 
-To Contribute, checkout (CONTRIBUTE.md)[]
+- To Contribute, checkout (CONTRIBUTE.md)[https://github.com/Chimoney/Chimoney-API-DevChallenge/blob/main/CONTRIBUTING.md]
 
 ## Prizes
 
