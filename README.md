@@ -14,9 +14,9 @@ As part of this challenge, participants are invited to address specific pain poi
    
 3. Payment Delays: Create a tracking system for users to track their pending transactions
    
-5. Payment Integration for E-commerce Platforms: Provide seamless integration with e-commerce platforms, enabling businesses to streamline payment processes for their online customers.
+4. Payment Integration for E-commerce Platforms: Provide seamless integration with e-commerce platforms, enabling businesses to streamline payment processes for their online customers.
    
-7. Payout Solutions for Gig Economy Workers: Design applications that offer efficient and flexible payout solutions for gig economy workers and freelancers.
+5. Payout Solutions for Gig Economy Workers: Design applications that offer efficient and flexible payout solutions for gig economy workers and freelancers.
 
 ## Getting Started
 
