@@ -11,14 +11,18 @@ The Chimoney Developer API Challenge is an exciting opportunity for developers t
 
 As part of this challenge, participants are invited to address specific pain points in the current financial landscape and leverage the Chimoney Developer API to develop unique solutions that streamline global payments, enhance user experiences, and promote financial inclusion.
 
-### Specific Pain Points You Can Build Solutions On:
- - Payment Security: Enhance the security of financial transactions and protect sensitive data during payment processing.
-   
- - Payment Delays: Create a tracking system for users to track their pending transactions
-   
- - Payment Integration for E-commerce Platforms: Provide seamless integration with e-commerce platforms, enabling businesses to streamline payment processes for their online customers.
-   
-- Payout Solutions for Gig Economy Workers: Design applications that offer efficient and flexible payout solutions for gig economy workers and freelancers.
+### Project Ideas:
+ #### Affiliate Payouts
+Build solutions for On-click global Payouts for Affiliates and Influencers in any country. Enable Businesses to grow their sales and traction by signing up Influencers and Affiliates and paying them out.
+
+#### Global Employee Travel Reimbursement
+Build a travel expense reimbursement platform for businesses with a global workforce. Chimoney's Developer API would be utilized to process travel expense reimbursements for employees, ensuring hassle-free and timely payments.
+
+#### Loyalty Points Conversion
+Create a loyalty points conversion platform that allows users to redeem their accumulated loyalty points as airtime or gift cards. Chimoney's API would be integrated to ensure a smooth and efficient conversion process.
+
+#### International Gifting Network
+Build an app that enables users to send gift cards to their friends and family across borders. Chimoney's API would be used to facilitate cross-border gift card redemptions, ensuring that recipients can easily access their chosen gifts.
 
 ## Getting Started
 
