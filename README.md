@@ -1,6 +1,7 @@
+![Chimoney challenge](https://github.com/Chimoney/Chimoney-API-DevChallenge/blob/1307b2cd584f8815e754606a9b70dce181aa6a3e/Images/Challenge%20Banner.png)
+
 # Chimoney-API-DevChallenge
 Welcome to the official repository for the Chimoney API Developer Challenge! 🚀 
-![Chimoney Hacktober](https://github.com/Chimoney/Chimoney-API-DevChallenge/blob/1307b2cd584f8815e754606a9b70dce181aa6a3e/Images/Challenge%20Banner.png)
 
 ## Challenge Overview
 
