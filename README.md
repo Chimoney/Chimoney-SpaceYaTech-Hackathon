@@ -22,7 +22,7 @@ Build an app that enables users to send gift cards to their friends and family a
 
 ## Getting Started
 
-1. Create a new issue for the solution you wish to work on or ask to be assigned any of the issues we currently have here
+1. Create a new issue for the solution you wish to work on or ask to be assigned any of the issues we currently have [here](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues)
 
 2. Work on the solution and when you're sure it's complete, create a PR
 
