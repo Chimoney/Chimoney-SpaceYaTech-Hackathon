@@ -7,10 +7,6 @@ Welcome to the official repository for the Chimoney API Developer Challenge! ðŸš
 
 The Chimoney Developer API Challenge is an exciting opportunity for developers to showcase their skills and build applications using the Chimoney Developer API. 
 
-## Problem Statement
-
-As part of this challenge, participants are invited to address specific pain points in the current financial landscape and leverage the Chimoney Developer API to develop unique solutions that streamline global payments, enhance user experiences, and promote financial inclusion.
-
 ### Project Ideas:
  #### Affiliate Payouts
 Build solutions for On-click global Payouts for Affiliates and Influencers in any country. Enable Businesses to grow their sales and traction by signing up Influencers and Affiliates and paying them out.
@@ -26,7 +22,9 @@ Build an app that enables users to send gift cards to their friends and family a
 
 ## Getting Started
 
-To Contribute, checkout [CONTRIBUTE.md](https://github.com/Chimoney/Chimoney-API-DevChallenge/blob/main/CONTRIBUTING.md)
+1. Create a new issue for the solution you wish to work on or ask to be assigned any of the issues we currently have here
+
+2. Work on the solution and when you're sure it's complete, create a PR
 
 ## Prizes
 
