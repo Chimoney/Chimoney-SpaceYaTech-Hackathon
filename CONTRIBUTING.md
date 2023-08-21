@@ -5,11 +5,9 @@ To ensure a smooth and collaborative experience for all participants, please fol
 
 ## Getting Started
 
-1. Fork this repository to your GitHub account.
+1. Create a new issue for the solution you wish to work on or ask to be assigned any of the issues we currently have [here](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues)
 
-2. Clone the forked repository to your local machine.
-
-3. Create a new branch for your contributions
+2. Work on the solution and when you're sure it's complete, create a PR
    
 ## Guidelines for Contributions
 
