@@ -30,17 +30,6 @@ Build an app that enables users to send gift cards to their friends and family a
 
 We have exciting prizes lined up for the most outstanding solutions, including cash rewards ($20 for each Merged PR), Chimoney swag , and the opportunity to be featured in our success stories!
 
-## How to Participate
-
-1. Register for the challenge by [clicking here](https://docs.google.com/forms/d/e/1FAIpQLSdAPHxaSAc8P5td7HGbPpI-yrY5Y_iTuY93Y-F8FZNB49Asjw/viewform).
-
-2. Attend the Developer API Introduction Webinar on August 9th to learn more about the Chimoney API and how to get started.
-
-3. Build your solution using the Chimoney Developer API.
-
-4. Submit your project via a pull request to this repository.
-
-5. Our team will review your solution and merge your PR
 
 ## Resources
 
