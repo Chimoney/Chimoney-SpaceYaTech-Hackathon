@@ -1,0 +1,33 @@
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Dai+Banna+SIL:wght@300&family=Lora&family=Sacramento&display=swap');
+
+  /* font-family: 'Cookie', cursive;
+  font-family: 'Sacramento', cursive;
+  font-family: 'Dai Banna SIL', serif;
+  font-family: 'Lora', serif; */
+  
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+:root{
+  --mainOrange:#f1a640;
+  --fontColor:#717178;
+  --mainBlack: #27272a;;
+}
+
+body{
+  font-family: 'Lora', serif;
+  box-sizing: border-box;
+  position: relative;
+  background: #B8A382;
+  scrollbar-color: #76521B;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  color: var(--fontColor);
+}
