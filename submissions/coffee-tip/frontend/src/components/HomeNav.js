@@ -26,7 +26,7 @@ const HomeNav = ({status, logout}) => {
         </Flexbox>
         :
         <button onClick={logout}>
-        <span>Logout </span>
+        <span> Logout </span>
         <FiLogOut/>
       </button>
 }

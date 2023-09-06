@@ -198,6 +198,8 @@ a{
 export const FormContainer = styled.main`
 /* background-color: #fff;
 height: 100vh; */
+
+
 .login {
   width: 420px;
   padding: 8% 0 0;
@@ -322,6 +324,32 @@ justify-content: center;
     object-fit: cover;
     height: 350px;
     border-radius: 30px;
+  }
+}
+
+.wallet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  div{
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    border-color: transparent;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+   
+    background-color: beige;
+
+    h3{
+      color: #36150E;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
   }
 }
 `;

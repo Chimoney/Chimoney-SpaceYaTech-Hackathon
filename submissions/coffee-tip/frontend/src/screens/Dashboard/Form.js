@@ -28,7 +28,7 @@ const Form = ({user}) => {
               // set configurations
           const configuration = {
             method: "post",
-            url: "http://localhost:5001/payout",
+            url: "https://coffetip.onrender.com/payout",
             data: values,
           };
   
@@ -149,7 +149,7 @@ const Form = ({user}) => {
 
 
 const FormContainer = styled.section`
-  margin-top: 80px;
+  margin-top: 70px !important;
   display: flex;
   justify-content: center;
 

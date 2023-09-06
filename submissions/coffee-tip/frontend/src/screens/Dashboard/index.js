@@ -55,7 +55,7 @@ const Index = () => {
   return (
     <HomeContainer>
       <Navbar status="online" logout={logout}/>
-            <UserProfile user={user}/>
+            <UserProfile user={user} wallet={wallet}/>
       <Footer />
     </HomeContainer>
   );
