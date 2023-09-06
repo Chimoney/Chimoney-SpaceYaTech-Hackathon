@@ -44,6 +44,10 @@ const Login = () => {
           cookies.set("TOKEN", result.data.token, {
             path: "/",
           });
+            // set the cookie
+            cookies.set("WALLET", result.data.wallets, {
+              path: "/",
+            });
           Swal.fire({
             position: 'top',
             icon: 'success',
@@ -63,8 +67,6 @@ const Login = () => {
             text: 'User does not exist!'
           })
         });
-          // Alert the input values of the form
-          // alert(JSON.stringify(values));
         }}
       >
         {({

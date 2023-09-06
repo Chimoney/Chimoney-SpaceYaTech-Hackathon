@@ -10,15 +10,14 @@ const cookies = new Cookies();
 
 // get token generated on login
 const token = cookies.get("TOKEN");
-
+const wallet = cookies.get("WALLET")
 
 const Index = () => {
   
   const Navigate = useNavigate();
 
     // set an initial state for the message we will receive after the API call
-    const [name, setName] = useState("");
-    const [wallet, setWallet] = useState(null);
+    const [user, setUser] = useState("");
 
     // useEffect automatically executes once the page is fully loaded
     useEffect(() => {
@@ -33,12 +32,10 @@ const Index = () => {
   
       // make the API call
       axios(configuration)
-        .then((result) => {
-          console.log(result)
-          // assign the message in our result to the message we initialized above
-          setName(result.data.name);
-          setWallet(...token.wallets)
-          console.log(wallet)
+      .then((result) => {
+        console.log(result)
+        console.log(cookies, wallet)
+          setUser(result.data.name);
         })
         .catch((error) => {
           error = new Error();
@@ -58,7 +55,7 @@ const Index = () => {
   return (
     <HomeContainer>
       <Navbar status="online" logout={logout}/>
-            <UserProfile name ={name}/>
+            <UserProfile user={user}/>
       <Footer />
     </HomeContainer>
   );

@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Formik } from "formik";
 import * as Yup from "yup";
 import { styled } from "styled-components";
 import { BtnContainer, Flexbox } from "../../assets/styles";
+import axios from "axios";
+import Swal from "sweetalert2";
+
 
 // Creating schema
 const schema = Yup.object().shape({
@@ -12,16 +15,48 @@ const schema = Yup.object().shape({
     .email("Invalid email format"),
 });
 
-const Form = () => {
+const Form = ({user}) => {
+  const [Loading, setLoading] = useState(false);
+
   return (
     <FormContainer>
       <Formik
         validationSchema={schema}
         initialValues={{ amount: 1, email: "" }}
         onSubmit={(values) => {
-          // Alert the input values of the form that we filled
-          alert(JSON.stringify(values));
-        }}
+            setLoading(true);
+              // set configurations
+          const configuration = {
+            method: "post",
+            url: "http://localhost:5001/payout",
+            data: values,
+          };
+  
+              // make the API call
+          axios(configuration)
+          .then((result) => {
+            setLoading(false);
+           
+            Swal.fire({
+              position: 'top',
+              icon: 'success',
+              title: 'Payment Initiated',
+              showConfirmButton: true
+            })
+            // redirect user to make payment
+            const redirect_url = result.data.data.paymentLink;
+            window.location.href = redirect_url;
+          })
+          .catch((error) => {
+            error = new Error();
+            setLoading(false);
+            Swal.fire({
+              icon: 'error',
+              title: 'Oops...',
+              text: 'some error occured durring the process..'
+            })
+          });
+          }}
       >
         {({
           values,
@@ -32,8 +67,8 @@ const Form = () => {
           handleSubmit,
         }) => (
           <form className="wrapper" onSubmit={handleSubmit}>
-            <h3>Send a CoffeeTip.. </h3>
-            <div className="grouped">
+            <h3>Send CoffeeTip to {user}.. </h3>
+            {/* <div className="grouped">
               <p className="error">
                 {errors.fullname && touched.fullname && errors.fullname}
               </p>
@@ -48,7 +83,7 @@ const Form = () => {
                   value={values.fullname}
                   className="form-control inp_text"
                 />
-            </div>
+            </div> */}
 
             <div className="grouped">
               <p className="error">
@@ -85,7 +120,7 @@ const Form = () => {
               />
             </div>
 
-            <div className="grouped">
+            {/* <div className="grouped">
               <p className="error">
                 {errors.message && touched.message && errors.message}
               </p>
@@ -101,7 +136,7 @@ const Form = () => {
                 value={values.message}
                 className="form-control inp_text"
               ></textarea>
-            </div>
+            </div> */}
 <BtnContainer>
             <button type="submit">Send</button>
 </BtnContainer>

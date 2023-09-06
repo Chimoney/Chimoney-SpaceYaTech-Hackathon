@@ -7,12 +7,12 @@ import melanie from "../../assets/melanie.jpeg";
 import {IoMdNotificationsOutline} from "react-icons/io";
 
 
-const UserProfile = ({name}) => {
+const UserProfile = ({user}) => {
   const Navigate = useNavigate();
   return (
     <ProfileContainer>
         <div className="headline">
-      <h2>Hi,{name} </h2>
+      <h2>Hi {user}, </h2>
       <div className="box">
         <IoMdNotificationsOutline/>
       <img src={melanie} alt="user headshot" />
@@ -21,7 +21,7 @@ const UserProfile = ({name}) => {
       <div className="img__box">
         <img src={ImageBg} className="bg" alt="colorful background" />
       </div>
-      <Form/>
+      <Form user={user}/>
     </ProfileContainer>
   );
 };
