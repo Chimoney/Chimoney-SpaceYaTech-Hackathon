@@ -15,4 +15,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 ## ScreenRecord of the the website
-<img src="image.gif" alt="screenshot" title="screenshot">
+![CoffeeTip website](https://github.com/mzoyinda/Chimoney-API-DevChallenge/blob/main/submissions/coffee-tip/image.gif)
