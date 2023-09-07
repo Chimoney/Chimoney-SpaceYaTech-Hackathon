@@ -24,7 +24,7 @@ const Index = () => {
       // set configurations for the API call here
       const configuration = {
         method: "get",
-        url: "http://localhost:5001/auth",
+        url: "https://coffetip.onrender.com/auth",
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -36,6 +36,7 @@ const Index = () => {
         console.log(result)
         console.log(cookies, wallet)
           setUser(result.data.name);
+          console.log(result.data)
         })
         .catch((error) => {
           error = new Error();
