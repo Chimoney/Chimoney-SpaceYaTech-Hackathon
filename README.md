@@ -21,13 +21,17 @@ Build an app that enables users to send gift cards to their friends and family a
 
 ## Getting Started & Contributing
 
-1. Create a new issue for the solution you wish to work on with your team or ask to be assigned any of the issues we currently have [here](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues)
+1. Sign up for a developer account on our [sandbox portal](https://sandbox.chimoney.io/developers)
+   
+2. Generate your API Key on the Developer dashboard.
+  
+3. Create a new issue for the solution you wish to work on with your team or ask to be assigned any of the issues we currently have [here](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues)
 
-2. Work on the solution with your team and when you're sure it's complete, submit your solution in the submissions folder
+4. Work on the solution with your team and when you're sure it's complete, submit your solution in the submissions folder
    
-3. Create a PR and our team will review your solution
+5. Create a PR and our team will review your solution
    
-4. If you wish to get assigned to a team, please fill this [form](https://forms.gle/7At1R1Ur3BrGAqhZ9)
+6. If you wish to get assigned to a team, please fill this [form](https://forms.gle/7At1R1Ur3BrGAqhZ9)
 
 ## Prizes
 
@@ -37,6 +41,8 @@ We have exciting prizes lined up for the most outstanding solutions, including c
 ## Resources
 
 - [Chimoney Developer API Documentation](https://chimoney.readme.io/reference/introduction)
+- [Chimoney Developer Examples](https://github.com/Chimoney/chimoney-developer-examples)
+- [Sandbox Portal](https://sandbox.chimoney.io/developers)
 
 ## Questions or Feedback
 
