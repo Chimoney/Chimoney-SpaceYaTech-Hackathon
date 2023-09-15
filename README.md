@@ -19,13 +19,15 @@ Create a loyalty points conversion platform that allows users to redeem their ac
 #### International Gifting Network
 Build an app that enables users to send gift cards to their friends and family across borders. Chimoney's API would be used to facilitate cross-border gift card redemptions, ensuring that recipients can easily access their chosen gifts.
 
-## Getting Started
+## Getting Started & Contributing
 
 1. Create a new issue for the solution you wish to work on with your team or ask to be assigned any of the issues we currently have [here](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues)
 
-2. Work on the solution with your team and when you're sure it's complete, create a PR
+2. Work on the solution with your team and when you're sure it's complete, submit your solution in the submissions folder
    
-3. If you wish to get assigned to a team, please fill this [form](https://forms.gle/7At1R1Ur3BrGAqhZ9)
+3. Create a PR and our team will review your solution
+   
+4. If you wish to get assigned to a team, please fill this [form](https://forms.gle/7At1R1Ur3BrGAqhZ9)
 
 ## Prizes
 
