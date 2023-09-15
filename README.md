@@ -1,11 +1,10 @@
-![Chimoney challenge](https://github.com/Chimoney/Chimoney-API-DevChallenge/blob/1307b2cd584f8815e754606a9b70dce181aa6a3e/Images/Challenge%20Banner.png)
 
-# Chimoney-API-DevChallenge
-Welcome to the official repository for the Chimoney API Developer Challenge! 🚀 
+# Chimoney x SpaceYaTech Hackathon
+Welcome to the official repository for the Chimoney x SpaceYaTech Hackathon! 🚀 
 
-## Challenge Overview
+## Hackathon Overview
 
-The Chimoney Developer API Challenge is an exciting opportunity for developers to showcase their skills and build applications using the Chimoney Developer API. 
+This hackathon  is an exciting opportunity for developers to build innovative solutions for cross-border payment problems faced by businesses and their employees. 
 
 ### Project Ideas:
  #### Affiliate Payouts
@@ -28,7 +27,7 @@ Build an app that enables users to send gift cards to their friends and family a
 
 ## Prizes
 
-We have exciting prizes lined up for the most outstanding solutions, including cash rewards ($20 for each Merged PR), Chimoney swag , and the opportunity to be featured in our success stories!
+We have exciting prizes lined up for the most outstanding solutions, including cash rewards, Chimoney swag , and the opportunity to be featured in our success stories!
 
 
 ## Resources
