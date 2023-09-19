@@ -1,10 +1,10 @@
 # ONCLICK-PAYOUTS Web App
 *****
 ### Author :
-1. Mugo Joseph Wamiti
-2. Obre Bjorn
-3. John Vundi
-4. Jay Muritu
+1. Mugo Joseph Wamiti - Backend 
+2. Obre Bjorn - Backend
+3. John Vundi - Frontend
+4. Jay Muritu - Frontend
 ****
 ## Project Description
 A solution for On-click global Payouts for Affiliates and Influencers in any country. Enables Businesses to grow their sales and traction by signing up Influencers and Affiliates and paying them out.
