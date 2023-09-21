@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col"></div>
+    <div class="col">
+        <h5 class="text-center">Pay With Mobile Money</h5>
+        <hr>
+        <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="modal-body">
+
+            <div class="mb-2">
+                <label for="exampleInputPassword1" class="form-label">Amount</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="amount"
+                  name="amount"
+                  required
+                />
+              </div>
+              
+            <div class="text-center mt-2">
+              <button type="submit" class="btn btn-primary">Submit Payout</button>
+            </div>
+          </div>
+          </form>
+    </div>
+    <div class="col"></div>
+</div>
+{% endblock content %}
