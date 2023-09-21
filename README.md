@@ -43,8 +43,8 @@ We have exciting prizes lined up for the most outstanding solutions, including c
 
 ## Submission of Project
 
-You are required to submit your final project as a ReadME link with the following information:
-1. A brief write up of your project, the problem it solves and the solution you created. Also include the names of your team mates.
+You are required to Create a Pull Request with your ReadME link to the submissions folder here. The ReadME should contain the following information:
+1. A brief write up of your project, the problem it solves and the solution you created. Also include the names of your team mates and team name.
 2. A link to your GitHub’s repository containing your project
 3. At least 2 positive or negative experiences you had while implementing Chimoney’s API 
 
