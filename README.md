@@ -37,6 +37,17 @@ Build an app that enables users to send gift cards to their friends and family a
 
 We have exciting prizes lined up for the most outstanding solutions, including cash rewards, Chimoney swag , and the opportunity to be featured in our success stories!
 
+## Acceptance Criteria
+- Use Chimoney’s API to build a solution for a business case. The solution should make use of Chimoney’s services like payouts, payment requests, bank transfers, airtime, cash, and gift card redemption.
+- Projects will be judged on Viability, Creativity, and how they’ve implemented Chimoney’s services. 
+
+## Submission of Project
+
+You are required to submit your final project as a ReadME link with the following information:
+1. A brief write up of your project, the problem it solves and the solution you created. Also include the names of your team mates.
+2. A link to your GitHub’s repository containing your project
+3. At least 2 positive or negative experiences you had while implementing Chimoney’s API 
+
 
 ## Resources
 
