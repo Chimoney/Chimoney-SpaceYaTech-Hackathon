@@ -1,11 +1,10 @@
-![Chimoney challenge](https://github.com/Chimoney/Chimoney-API-DevChallenge/blob/1307b2cd584f8815e754606a9b70dce181aa6a3e/Images/Challenge%20Banner.png)
 
-# Chimoney-API-DevChallenge
-Welcome to the official repository for the Chimoney API Developer Challenge! 🚀 
+# Chimoney x SpaceYaTech Hackathon
+Welcome to the official repository for the Chimoney x SpaceYaTech Hackathon! 🚀 
 
-## Challenge Overview
+## Hackathon Overview
 
-The Chimoney Developer API Challenge is an exciting opportunity for developers to showcase their skills and build applications using the Chimoney Developer API. 
+This hackathon  is an exciting opportunity for developers to build innovative solutions for cross-border payment problems faced by businesses and their employees. 
 
 ### Project Ideas:
  #### Affiliate Payouts
@@ -20,26 +19,47 @@ Create a loyalty points conversion platform that allows users to redeem their ac
 #### International Gifting Network
 Build an app that enables users to send gift cards to their friends and family across borders. Chimoney's API would be used to facilitate cross-border gift card redemptions, ensuring that recipients can easily access their chosen gifts.
 
-## Getting Started
+## Getting Started & Contributing
 
-1. Create a new issue for the solution you wish to work on or ask to be assigned any of the issues we currently have [here](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues)
+1. Sign up for a developer account on our [sandbox portal](https://sandbox.chimoney.io/developers)
+   
+2. Generate your API Key on the Developer dashboard.
+  
+3. Create a new issue for the solution you wish to work on with your team or ask to be assigned any of the issues we currently have [here](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues)
 
-2. Work on the solution and when you're sure it's complete, create a PR
+4. Work on the solution with your team and when you're sure it's complete, submit your solution in the submissions folder
+   
+5. Create a PR and our team will review your solution
+   
+6. If you wish to get assigned to a team, please fill this [form](https://forms.gle/7At1R1Ur3BrGAqhZ9)
 
 ## Prizes
 
-We have exciting prizes lined up for the most outstanding solutions, including cash rewards ($20 for each Merged PR), Chimoney swag , and the opportunity to be featured in our success stories!
+We have exciting prizes lined up for the most outstanding solutions, including cash rewards, Chimoney swag , and the opportunity to be featured in our success stories!
+
+## Acceptance Criteria
+- Use Chimoney’s API to build a solution for a business case. The solution should make use of Chimoney’s services like payouts, payment requests, bank transfers, airtime, cash, and gift card redemption.
+- Projects will be judged on Viability, Creativity, and how they’ve implemented Chimoney’s services. 
+
+## Submission of Project
+
+You are required to Create a Pull Request with your ReadME link to the submissions folder [here](https://github.com/Chimoney/Chimoney-SpaceYaTech-Hackathon/tree/main/submissions). The ReadME should contain the following information:
+1. A brief write up of your project, the problem it solves and the solution you created. Also include the names of your team mates and team name.
+2. A link to your GitHub’s repository containing your project
+3. At least 2 positive or negative experiences you had while implementing Chimoney’s API 
 
 
 ## Resources
 
 - [Chimoney Developer API Documentation](https://chimoney.readme.io/reference/introduction)
+- [Chimoney Developer Examples](https://github.com/Chimoney/chimoney-developer-examples)
+- [Sandbox Portal](https://sandbox.chimoney.io/developers)
 
 ## Questions or Feedback
 
-If you have any questions or need further assistance during the challenge, don't hesitate to [create an issue](https://github.com/Chimoney/Chimoney-API-DevChallenge/issues) in this repository. We are here to support you throughout your journey!
+If you have any questions or need further assistance, don't hesitate to reach out to community@chimoney.io. We are here to support you throughout your journey!
 
-Let's build a borderless financial future together with the Chimoney Developer API Challenge. Happy coding! 😃
+ Happy coding! 😃
 
 - The Chimoney Team 💌
 
