@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-9">
+      {% if request.user.is_superuser %}
+        <h3>Employees List</h3>
+      {% else %}
+      <h3>My Profile</h3>
+      {% endif %}
+    </div>
+    <div class="col-3">
+        <a class="btn btn-success" data-bs-toggle="modal" data-bs-target="#newStaffModal">New Employee</a>
+    </div>
+</div>
+<hr/>
+      <div class="table-responsive small">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">ID Number</th>
+              <th scope="col">Gender</th>
+              <th scope="col">Phone Number</th>
+              <th scope="col">Email</th>
+              <th scope="col">Role</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for user in users %}
+            <tr>
+              <td>{{user.id}}</td>
+              <td>{{user.name}}</td>
+              <td>{{user.id_number}}</td>
+              <td>{{user.gender}}</td>
+              <td>{{user.phone_number}}</td>
+              <td>{{user.email}}</td>
+              <td>{{user.role}}</td>
+              <td><a class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#editStaffModal{{ user.id }}">Edit</a></td>
+              <td><a href="{% url 'delete-user' user.id %}" class="btn btn-warning btn-sm">Delete</a></td>
+            </tr>
+            {% include "modals/edit_user.html" %}
+            {% endfor %}
+
+          </tbody>
+        </table>
+      </div>
+{% endblock content %}

@@ -1,0 +1,42 @@
+<div class="modal fade" id="newRequestModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-center">Request Reimbursemet</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+            <form action="/request-payment/" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="modal-body">
+                <div class="mb-2">
+                  <label for="exampleInputPassword1" class="form-label">Amount Requesting</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="amount_requested"
+                    name="amount_requested"
+                    placeholder="Amount in USD..."
+                    required
+                  />
+                </div>
+
+                  <div class="mb-2">
+                    <label for="exampleInputPassword1" class="form-label">Description</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="description"
+                      name="description"
+                      placeholder="Some Info..."
+                    />
+                  </div>
+
+                  
+                <div class="text-center mt-2">
+                  <button type="submit" class="btn btn-primary">Submit Request</button>
+                </div>
+              </div>
+              </form>
+      </div>
+    </div>
+  </div>
