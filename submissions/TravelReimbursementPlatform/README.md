@@ -32,6 +32,9 @@ kubectl apply -f k8s/.
 Runs the app in the development mode.\
 Open [http://127.0.0.1:8000](http://127.0.0.1:8000) to view it in your browser.
 
+Live link to the hosted version.\
+Open [http://102.212.245.67:8000/](http://102.212.245.67:8000/) to view it in your browser.
+
 
 ## ScreenRecord of the the website
 1. Demo Part 1
@@ -39,3 +42,7 @@ https://www.loom.com/share/7e6230eb4afe42d5924d6140ddf210c2?t=258&sid=e83d1ba6-5
 
 2. Demo Part 2.
 https://www.loom.com/share/4dfe6df3c8bd4a2b836cd5b7ec5addfc?sid=d40e8f27-f9e9-484a-b500-b77533dfdc80
+
+## Pros & Cons
+1. Positive
+  i. Easy to use and Integrate
