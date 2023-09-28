@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: travel-reimbursement-plaform
+spec:
+  selector:
+    matchLabels:
+      app: travel-reimbursement-plaform
+  template:
+    metadata:
+      labels:
+        app: travel-reimbursement-plaform
+    spec:
+      containers:
+      - name: travel-reimbursement-plaform
+        image: 40781998/travel-reimbursement-platform:latest
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "250m"
+        ports:
+        - containerPort: 8000

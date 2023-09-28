@@ -1,0 +1,67 @@
+<div class="modal fade" id="newMOMOPayoutModal{{payment.id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-center">Pay Employee</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+            <form action="/mobile-money-payout/" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="modal-body">
+                <div class="mb-2">
+                    <label for="exampleInputPassword1" class="form-label">Payment Request ID</label>
+                    <input
+                        type="number"
+                        class="form-control"
+                        id="payment_id"
+                        name="payment_id"
+                        value="{{payment.id}}"
+                        readonly
+                    />
+                    </div>
+                <div class="mb-2">
+                  <label for="exampleInputPassword1" class="form-label">Amount (in $)</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="amount"
+                    name="amount"
+                    value="{{payment.amount_requested}}"
+                    readonly
+                    required
+                  />
+                </div>
+
+                <div class="mb-2">
+                  <label for="exampleInputPassword1" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    value="{{payment.user.email}}"
+                    readonly
+                  />
+                </div>
+
+                  <div class="mb-2">
+                    <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="phone_number"
+                      name="phone_number"
+                      value="{{payment.user.phone_number}}"
+                      readonly
+                    />
+                  </div>
+
+                  
+                <div class="text-center mt-2">
+                  <button type="submit" class="btn btn-primary">Submit Payout</button>
+                </div>
+              </div>
+              </form>
+      </div>
+    </div>
+  </div>

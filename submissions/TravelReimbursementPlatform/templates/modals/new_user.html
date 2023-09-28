@@ -1,0 +1,99 @@
+<div class="modal fade" id="newStaffModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 text-center">Add New Employee</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+            <form action="/users/register/" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="modal-body">
+                <div class="mb-2">
+                  <label for="exampleInputPassword1" class="form-label">First Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="first_name"
+                    name="first_name"
+                    required
+                  />
+                </div>
+                <div class="mb-2">
+                    <label for="exampleInputPassword1" class="form-label">Last Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="last_name"
+                      name="last_name"
+                      required
+                    />
+                  </div>
+                  <div class="mb-2">
+                    <label for="exampleInputPassword1" class="form-label">ID Number</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="id_number"
+                      name="id_number"
+                      required
+                    />
+                  </div>
+                  <div class="mb-2">
+                    <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="phone_number"
+                      name="phone_number"
+                      required
+                    />
+                  </div>
+                  <div class="mb-2">
+                    <label for="exampleInputPassword1" class="form-label">Position</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="position"
+                      name="position"
+                      required
+                    />
+                  </div>
+                  <div class="mb-2">
+                    <label for="exampleInputPassword1" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      name="email"
+                      required
+                    />
+                  </div>
+                  
+                  <div class="mb-2">
+                    <label class="form-label">Gender</label>
+                    <select class="form-select" id="gender" name="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+    
+                      </select>
+                  </div>
+
+                  <div class="mb-2">
+                    <label class="form-label">Role</label>
+                    <select class="form-select" id="role" name="role">
+                        
+                        <option value="admin">Admin</option>
+                        <option value="hr">Hr Admin</option>
+                        <option value="employee">Employee</option>
+    
+                      </select>
+                  </div>
+                
+                <div class="text-center mt-2">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+              </form>
+      </div>
+    </div>
+  </div>
