@@ -45,4 +45,4 @@ https://www.loom.com/share/4dfe6df3c8bd4a2b836cd5b7ec5addfc?sid=d40e8f27-f9e9-48
 
 ## Pros & Cons
 1. Positive
-  i. Easy to use and Integrate
+Easy to use and Integrate
